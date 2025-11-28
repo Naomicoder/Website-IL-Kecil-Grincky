@@ -1,0 +1,67 @@
+img.banner{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0px;
+    background-color: lightskyblue;
+}
+ul.nav{
+    list-style-type: none;
+    list-style-position: outside;
+    margin:0px;
+    padding-left:10px;
+    background-color: coral;
+    border:1px solid black;
+    overflow: hidden;
+    width:100%;
+    position: fixed;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color:indigo;
+    text-align: center;
+}
+li a:hover{
+    background-color:navy;
+    color:chartreuse;
+}
+h3.mulai{
+    margin-top:75px;
+    margin-left:10px;
+    font-family:telor;
+}
+@font-face {
+  font-family: telor;
+  src: url(Telor\ Bistik.ttf);
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: coral;
+    margin: 0px;
+}
+.dropdown{ float:left;
+			overflow:hidden;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content a{
+    display:block;
+}
+li a, dropbtn{
+    display:inline-block;
+    padding: 18px 16px;
+    text-decoration: none;
+    color:indigo;
+    text-align: center
+}
